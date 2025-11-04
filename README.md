@@ -1,10 +1,9 @@
-Softlight Engineering Take-Home Assignment
-Overview
+#Softlight Engineering Take-Home Assignment
 
 This repository contains both the Figma-to-HTML/CSS conversion system and the generated output for the provided Softlight design mock.
 The goal was to reproduce the visual layout from Figma as accurately as possible, ensuring pixel-perfect fidelity in dimensions, typography, colors, spacing, and gradients.
 
-Project Structure
+#Project Structure
 softlight-figma-converter/
 │
 ├── src/
@@ -21,7 +20,7 @@ softlight-figma-converter/
 ├── README.md
 └── requirements.txt
 
-How It Works
+#How It Works
 1. Connect to the Figma API
 
 figma_client.py authenticates using your Figma personal access token and retrieves the file’s JSON representation.

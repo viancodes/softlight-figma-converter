@@ -74,21 +74,12 @@ Visual comparison confirms near-identical output across browsers.
 ```bash
 pip install -r requirements.txt
 2. Test your Figma API connection
-bash
-Copy code
 python src/test_connection.py
 3. Generate HTML/CSS from your Figma file
-bash
-Copy code
 python src/main.py
 4. Open the generated page
-bash
-Copy code
 output/index.html
 You can also run it with a live server:
-
-bash
-Copy code
 npx live-server output
 Known Limitations
 Gradient direction sometimes needs manual verification for accuracy.

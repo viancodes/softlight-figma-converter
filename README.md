@@ -25,9 +25,6 @@ softlight-figma-converter/
 ├── README.md
 └── requirements.txt
 
-yaml
-Copy code
-
 ---
 
 ## How It Works

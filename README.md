@@ -112,8 +112,8 @@ Implement positioning relative to parent frames for adaptive layouts.
 Add CLI arguments for file key and output directory.
 
 Author
-Vishnu Ardhan Babu Pentela
-Python Developer & UI Engineer
-📧 Email: vishnuardhanbabu@gmail.com
+Vishnu Vardan Babu Pentela
+Python Developer
+📧 Email: viancodes@gmail.com
 
 Submitted as part of the Softlight Engineering Take-Home Assignment.

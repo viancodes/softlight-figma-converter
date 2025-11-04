@@ -8,7 +8,6 @@ The goal was to reproduce the visual layout from Figma as accurately as possible
 ---
 
 ## Project Structure
-
 softlight-figma-converter/
 │
 ├── src/

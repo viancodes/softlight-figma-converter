@@ -51,7 +51,7 @@ softlight-figma-converter/
 
 You can get the file key from the Figma file URL and generate a token from your Figma account settings.
 
-#Running the Converter
+##Running the Converter
 
    Run the main script:
    

@@ -51,27 +51,32 @@ softlight-figma-converter/
 
 You can get the file key from the Figma file URL and generate a token from your Figma account settings.
 
-##Running the Converter
+---
 
-   Run the main script:
-   
-   python src/main.py
+Running the Converter
+
+Run the main script:
+
+python src/main.py
 
 
-This will connect to the Figma API, fetch all nodes, and create index.html and styles.css inside the output/ folder.
+This connects to the Figma API, fetches all nodes, and creates index.html and styles.css inside the output/ folder.
 
-To test if your setup is correct:
+To verify your setup:
 
 python src/test_connection.py
 
 Notes
 
-Works with both public and private Figma files (as long as the token has access).
+Works with both public and private Figma files (as long as your token has access).
 
-The output HTML/CSS aims for visual accuracy, not complex interactions.
+Focuses on visual accuracy — layout, spacing, and styles — not interactions.
 
-The code is modular — easy to extend for new Figma node types or export options.
+The code is modular and can be extended to support more Figma node types or custom outputs.
 
 License
 
 MIT License
+
+Built by viancodes
+ — bridging design and code with practical, developer-friendly tools.

@@ -36,26 +36,26 @@ softlight-figma-converter/
    cd softlight-figma-converter
 
 2. Set up a virtual environment and install dependencies:
-
-python -m venv venv
-venv\Scripts\activate       # Windows
-source venv/bin/activate    # macOS/Linux
-pip install -r requirements.txt
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate       # Windows
+   source venv/bin/activate    # macOS/Linux
+   pip install -r requirements.txt
 
 
 3. Create a .env file in the root folder with your Figma credentials:
-
-FIGMA_API_KEY=your_figma_token
-FIGMA_FILE_KEY=your_figma_file_key
+   ```bash
+   FIGMA_API_KEY=your_figma_token
+   FIGMA_FILE_KEY=your_figma_file_key
 
 
 You can get the file key from the Figma file URL and generate a token from your Figma account settings.
 
-Running the Converter
+#Running the Converter
 
-Run the main script:
-
-python src/main.py
+   Run the main script:
+   
+   python src/main.py
 
 
 This will connect to the Figma API, fetch all nodes, and create index.html and styles.css inside the output/ folder.
